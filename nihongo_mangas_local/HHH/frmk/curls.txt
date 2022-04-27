@@ -1,0 +1,4 @@
+curl -X POST  -d '{"nick":"josep", "password":"adeu"}' -H "Content-type:application/json" http://localhost/frmk/registre/
+curl -X POST  -v -H "Content-type:application/json" http://localhost/frmk/login/natalia/adeu
+curl -X GET  -v -H "x-api-key:holahola" http://localhost/frmk/connected
+
